@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		 outputDiv.textContent = "";
 		
         // Get user input
-        const text = textInput.value;
+        const text = textInput.value.trim();
         const delay = parseInt(delayInput.value, 10);
 
         // Validate input
