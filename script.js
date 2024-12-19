@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
     submitButton.addEventListener("click", async (event) => {
         event.preventDefault(); // Prevent default form submission
 
+		 outputDiv.textContent = "";
+		
         // Get user input
         const text = textInput.value;
         const delay = parseInt(delayInput.value, 10);
